@@ -36,10 +36,6 @@ header{
 }
 
 /* main */
-.even{
-    background-color: var(--bg-grey);
-}
-
 .left{
     width: 60%;
 }
@@ -48,6 +44,19 @@ header{
     width: 40%;
 }
 
+
+
+/* footer */
+footer{
+    background-color: var(--bg-footer);
+}
+
+/* utilities */
+
 .text-center{
     text-align: center;
+}
+
+.even{
+    background-color: var(--bg-grey);
 }
