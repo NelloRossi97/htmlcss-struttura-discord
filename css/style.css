@@ -35,6 +35,21 @@ header{
     color: var(--white-text);
 }
 
+header li{
+    padding-left: 40px;
+    color: var(--white-text);
+}
+.navbar{
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar a{
+    color: var(--white-text);
+    text-decoration: none;
+}
+
+
 /* main */
 .left{
     width: 60%;
@@ -60,3 +75,32 @@ footer{
 .even{
     background-color: var(--bg-grey);
 }
+
+.f-between{
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.btn-style a{
+    text-decoration: none;
+}
+
+.btn-white a{
+    color: var(--black-text);
+}
+
+.btn-style{
+    border-radius: 20px;
+    padding: 7px 16px;
+}
+
+.btn-white{
+    color: var(--black-text);
+    background-color: var(--white-text);
+}
+
