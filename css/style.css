@@ -49,6 +49,13 @@ header li{
     text-decoration: none;
 }
 
+.head-bg{
+    background-image: url(../img/jumbo.png);
+    min-height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /* main */
 .left{
