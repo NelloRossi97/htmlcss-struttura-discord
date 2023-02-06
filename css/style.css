@@ -82,6 +82,10 @@ h1{
     margin-right: 20px;
 }
 
+#arrow-entity{
+    font-weight: bold;
+}
+
 /* main */
 .left{
     width: 60%;
@@ -129,6 +133,7 @@ ul{
     border-radius: 20px;
     padding: 7px 16px;
     color: var(--white-text);
+    font-weight: bold;
 }
 
 .btn-white{
@@ -141,5 +146,13 @@ ul{
 }
 
 .btn-drkgrey{
-    background-color: var(--head-btn);
+    background-color: var(--head-btn);zx
+}
+
+.btn-drkgrey a{
+    color: var(--white-text);
+}
+
+.reverse{
+    flex-flow: row-reverse wrap;
 }
