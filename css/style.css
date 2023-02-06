@@ -2,5 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
+:root{
+    --bg-header: #255EE9;
+    --bg-footer: #23272A;
+    --blue-text: #7289DA;
+    --black-text: #000000;
+    --head-btn: #23272A;
+    --bg-grey: #F5F5F5;
+}
